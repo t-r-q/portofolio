@@ -13,10 +13,12 @@ This portfolio showcases my work as a software engineer with experience. It cont
  <img src="https://img.icons8.com/color/48/000000/angularjs.png" width="24" /> Angular <img src="https://img.icons8.com/color/48/000000/c-sharp-logo-2.png" width="24" /> C#, <img src="https://img.icons8.com/color/48/000000/c-plus-plus-logo.png" width="24" /> C++, <img src="https://img.icons8.com/color/48/000000/java-coffee-cup-logo.png" width="24" /> Java, <img src="https://img.icons8.com/color/48/000000/python.png" width="24" /> Python, <img src="https://img.icons8.com/color/48/000000/javascript.png" width="24" /> JavaScript, and <img src="https://img.icons8.com/color/48/000000/sql.png" width="24" /> SQL. I am confident that my skills and experience would be an asset to any team, and I am looking for a challenging role where I can use my skills to make a significant contribution.
 
 ## Projects
-
+* [Project portfolio in React](https://github.com/t-r-q/portofolio)
+* [Project Library in Angular](https://github.com/t-r-q/)
 * [Project MoneyTracking in C#](https://github.com/t-r-q/MoneyTracking)
 * [Project MoneyTracking in C++](https://github.com/t-r-q/CPlusPlusApp)
-* [Project RockPaperScissors in Javascrippt](https://github.com/t-r-q/RockPaperScissors)
+* [Project Backeend RockPaperScissors in Javascrippt](https://github.com/t-r-q/RockPaperScissors)
+* [Project Share Drawing Board in Java](https://github.com/t-r-q/DrawWHIT_Java) 
 * [Project Mobile Dailer Android](https://github.com/t-r-q/androidDailer)
 * [Project Prediction testcases with AI in Java](https://github.com/t-r-q/ReadMatrixPro)
 
