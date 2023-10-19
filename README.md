@@ -1,3 +1,52 @@
+# Tarek's Portfolio
+
+Welcome to my portfolio! I'm Tarek, and I'm excited to share my work, experiences, and passion with you. This portfolio is a showcase of my journey through the world of software engineer, and it encompasses a diverse range of projects and skills.
+
+
+## About Me
+
+and I'm excited to introduce myself. My journey through the world of technology and software engineering has been an adventure filled with learning, growth, and meaningful experiences. 
+
+
+## What You'll Find
+This portfolio showcases my work as a software engineer with experience. It contains a selection of my best projects, including mobile apps, web applications, and server-side applications. I have used a variety of technologies in my work, including  <img src="https://img.icons8.com/ultraviolet/40/000000/react.png" width="24" /> React
+ <img src="https://img.icons8.com/color/48/000000/angularjs.png" width="24" /> Angular <img src="https://img.icons8.com/color/48/000000/c-sharp-logo-2.png" width="24" /> C#, <img src="https://img.icons8.com/color/48/000000/c-plus-plus-logo.png" width="24" /> C++, <img src="https://img.icons8.com/color/48/000000/java-coffee-cup-logo.png" width="24" /> Java, <img src="https://img.icons8.com/color/48/000000/python.png" width="24" /> Python, <img src="https://img.icons8.com/color/48/000000/javascript.png" width="24" /> JavaScript, and <img src="https://img.icons8.com/color/48/000000/sql.png" width="24" /> SQL. I am confident that my skills and experience would be an asset to any team, and I am looking for a challenging role where I can use my skills to make a significant contribution.
+
+## Projects
+
+* [Project MoneyTracking in C#](https://github.com/t-r-q/MoneyTracking)
+* [Project MoneyTracking in C++](https://github.com/t-r-q/CPlusPlusApp)
+* [Project RockPaperScissors in Javascrippt](https://github.com/t-r-q/RockPaperScissors)
+* [Project Mobile Dailer Android](https://github.com/t-r-q/androidDailer)
+* [Project Prediction testcases with AI in Java](https://github.com/t-r-q/ReadMatrixPro)
+
+
+## Technologies
+
+* <img src="https://img.icons8.com/ultraviolet/40/000000/react.png" width="24" /> React
+* <img src="https://img.icons8.com/color/48/000000/angularjs.png" width="24" /> Angular
+* <img src="https://img.icons8.com/color/48/000000/java-coffee-cup-logo.png" width="24" /> Java
+* <img src="https://img.icons8.com/color/48/000000/c-plus-plus-logo.png" width="24" /> C++
+* <img src="https://img.icons8.com/color/48/000000/c-sharp-logo-2.png" width="24" /> C#
+* <img src="https://img.icons8.com/color/48/000000/javascript.png" width="24" /> JavaScript
+* <img src="https://img.icons8.com/color/48/000000/python.png" width="24" /> Python
+* <img src="https://img.icons8.com/color/48/000000/sql.png" width="24" /> SQL
+
+
+## Contact
+
+* Email: [trqjms@gmail.com]
+* LinkedIn: [LinkedIn profile URL]
+
+
+
+### Thank you for visiting my portfolio, and I look forward to exploring the world of [Your Field] together!
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -31,40 +80,4 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 ### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
