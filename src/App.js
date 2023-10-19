@@ -8,10 +8,9 @@ import {
   AiFillApi, AiTwotoneMedicineBox, AiOutlineTrophy
 } from "react-icons/ai";
 import { BsFillMoonStarsFill, } from "react-icons/bs";
-import { FaBeer } from 'react-icons/fa';
-import skills from "./components/skills.js";
-import experi from "./components/Experience.js";
-import Projects from "./components/Projects.js";
+//import skills from "./components/skills.js";
+//import experi from "./components/Experience.js";
+//import Projects from "./components/Projects.js";
 import './App.css';
 import deved from "./png/avatar.png";
 import code from "./png/code.png";
@@ -45,7 +44,7 @@ function App() {
 
     <div className={darkMode ? "dark" : ""}>
       <section className="flex">
-        <div className={'${open ? "w-72" : "w-20 " }  bg-gradient-to-r from-cyan-500 text- to-sky-800 text-white px-4 py-2 border-none rounded-md ml-8 relative'}
+        <div className={'${open ? "w-72" : "w-20 " }  bg-gradient-to-r from-cyan-500 text- to-sky-800 text-white px-4 py-2 border-none rounded-md ml-2 relative'}
         >
           <img src={control} className={`absolute cursor-pointer -right-3 top-9 w-7 border-dark-purple
                                  border-2 rounded-full  ${!open && "rotate-180"}`}
@@ -259,13 +258,13 @@ function App() {
                       <div className="p-8 sm:p-10 lg:flex-auto">
                         <h3 className="text-2xl font-bold tracking-tight text-gray-900">Project MoneyTracking</h3>
                         <p className="mt-6 text-base leading-7 text-gray-600">
-                        The project was developed using C#. The main objective was to create a comprehensive banking system where users could effortlessly open new accounts as bank customers. 
-                        Once registered, users had the flexibility to manage multiple bank accounts, enabling them to deposit and withdraw funds while recording important transaction details, 
-                        including asset values, purchase dates, and prices.
+                          The project was developed using C#. The main objective was to create a comprehensive banking system where users could effortlessly open new accounts as bank customers.
+                          Once registered, users had the flexibility to manage multiple bank accounts, enabling them to deposit and withdraw funds while recording important transaction details,
+                          including asset values, purchase dates, and prices.
                         </p>
-                       
-                          <h4 className="flex-none text-sm font-semibold leading-6 text-indigo-600">C# language</h4>
-                         
+
+                        <h4 className="flex-none text-sm font-semibold leading-6 text-indigo-600">C# language</h4>
+
                       </div>
                       <div className="-mt-2 p-2 lg:mt-0 lg:w-full lg:max-w-md lg:flex-shrink-0">
                         <div className="rounded-2xl bg-gray-50 py-10 text-center ring-1 ring-inset ring-gray-900/5 lg:flex lg:flex-col lg:justify-center lg:py-16">
@@ -287,9 +286,9 @@ function App() {
                       <div className="p-8 sm:p-10 lg:flex-auto">
                         <h3 className="text-2xl font-bold tracking-tight text-gray-900">Project Todo List</h3>
                         <p className="mt-6 text-base leading-7 text-gray-600">
-                        The primary objective of this project to creating a task management system. 
-                        The application allowed users to model tasks with key attributes. Users could efficiently organize their tasks by sorting, add new tasks, edit existing ones, or remove tasks as needed.
-                         One of the noteworthy features of the application was the ability to load and save task lists to and from a file, ensuring data persistence and enhancing user convenience.
+                          The primary objective of this project to creating a task management system.
+                          The application allowed users to model tasks with key attributes. Users could efficiently organize their tasks by sorting, add new tasks, edit existing ones, or remove tasks as needed.
+                          One of the noteworthy features of the application was the ability to load and save task lists to and from a file, ensuring data persistence and enhancing user convenience.
                         </p>
                         <h4 className="flex-none text-sm font-semibold leading-6 text-indigo-600">C# language</h4>
                       </div>
@@ -313,13 +312,13 @@ function App() {
                       <div className="p-8 sm:p-10 lg:flex-auto">
                         <h3 className="text-2xl font-bold tracking-tight text-gray-900">Project Dialer Mobile</h3>
                         <p className="mt-6 text-base leading-7 text-gray-600">
-                        The Dialer application is a comprehensive app that replicates the functionality of a traditional phone keypad. 
-                        It offers multiple activities, including: Entering the number to call, viewing previously dialed numbers, 
-                        changing the keypad settings, viewing a map of where previous calls have been made.  
+                          The Dialer application is a comprehensive app that replicates the functionality of a traditional phone keypad.
+                          It offers multiple activities, including: Entering the number to call, viewing previously dialed numbers,
+                          changing the keypad settings, viewing a map of where previous calls have been made.
                         </p>
-                        
-                          <h4 className="flex-none text-sm font-semibold leading-6 text-indigo-600">Java language</h4>
-                         
+
+                        <h4 className="flex-none text-sm font-semibold leading-6 text-indigo-600">Java language</h4>
+
                       </div>
                       <div className="-mt-2 p-2 lg:mt-0 lg:w-full lg:max-w-md lg:flex-shrink-0">
                         <div className="rounded-2xl bg-gray-50 py-10 text-center ring-1 ring-inset ring-gray-900/5 lg:flex lg:flex-col lg:justify-center lg:py-16">
@@ -341,13 +340,13 @@ function App() {
                       <div className="p-8 sm:p-10 lg:flex-auto">
                         <h3 className="text-2xl font-bold tracking-tight text-gray-900">Project Library</h3>
                         <p className="mt-6 text-base leading-7 text-gray-600">
-                        The Dialer application is a comprehensive app that replicates the functionality of a traditional phone keypad. 
-                        It offers multiple activities, including: Entering the number to call, viewing previously dialed numbers, 
-                        changing the keypad settings, viewing a map of where previous calls have been made. 
+                          The Dialer application is a comprehensive app that replicates the functionality of a traditional phone keypad.
+                          It offers multiple activities, including: Entering the number to call, viewing previously dialed numbers,
+                          changing the keypad settings, viewing a map of where previous calls have been made.
                         </p>
-                       
-                          <h4 className="flex-none text-sm font-semibold leading-6 text-indigo-600">Angular language</h4>
-                         
+
+                        <h4 className="flex-none text-sm font-semibold leading-6 text-indigo-600">Angular language</h4>
+
                       </div>
                       <div className="-mt-2 p-2 lg:mt-0 lg:w-full lg:max-w-md lg:flex-shrink-0">
                         <div className="rounded-2xl bg-gray-50 py-10 text-center ring-1 ring-inset ring-gray-900/5 lg:flex lg:flex-col lg:justify-center lg:py-16">
@@ -364,7 +363,7 @@ function App() {
                           </div>
                         </div>
                       </div>
-                   </div>
+                    </div>
                   </div>
                 </div>
               </proojects>
