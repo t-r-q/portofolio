@@ -5,8 +5,11 @@ import {
   AiFillLinkedin,
   AiFillGithub,
   AiOutlineUser, AiOutlineWallet,
-  AiFillApi, AiTwotoneMedicineBox, AiOutlineTrophy
+  AiFillApi, AiOutlineRead, AiOutlineTrophy
 } from "react-icons/ai";
+import {
+  SlPencil, 
+} from "react-icons/sl";
 import { BsFillMoonStarsFill, } from "react-icons/bs";
 //import skills from "./components/skills.js";
 //import experi from "./components/Experience.js";
@@ -30,7 +33,8 @@ const Menus = [
   { title: "about me", alt: "#lession2", icon: AiFillApi },
   { title: "Skills", alt: "#lession3", icon: AiOutlineWallet },
   { title: "Experience", alt: "#lession4", icon: AiOutlineTrophy },
-  { title: "Education", alt: "#lession5", icon: AiTwotoneMedicineBox },
+  { title: "work", alt: "#lession6", icon: SlPencil },
+  { title: "Education", alt: "#lession5", icon: AiOutlineRead },
 ];
 
 
@@ -38,17 +42,17 @@ function App() {
   const [darkMode, setDarkMode] = useState(false);
   const [open, setOpen] = useState(true);
 
+  const className = ` w-${open ? "72" : "20 "} bg-gradient-to-r from-cyan-500 to-sky-800 text-white px-4 py-2 border-none rounded-md ms-2 relative`;
 
 
   return (
 
     <div className={darkMode ? "dark" : ""}>
       <section className="flex">
-        <div className={'${open ? "w-72" : "w-20 " }  bg-gradient-to-r from-cyan-500 text- to-sky-800 text-white px-4 py-2 border-none rounded-md ml-2 relative'}
-        >
-          <img src={control} className={`absolute cursor-pointer -right-3 top-9 w-7 border-dark-purple
-                                 border-2 rounded-full  ${!open && "rotate-180"}`}
-            onClick={() => setOpen(!open)}
+      <div className={className} >
+
+          <img src={control} className={`absolute cursor-pointer -right-3 top-9 w-7 border-dark-purple border-2 rounded-full  ${!open && "rotate-180"}  `}
+            onClick={() => setOpen(!open)} alt="hi in my portfolio"
           />
 
           <div className="flex gap-x-4 items-center">
@@ -56,12 +60,10 @@ function App() {
             <img
               src={logo}
               className={`cursor-pointer duration-500 ${open && "rotate-[360deg]"
-                }`}
+                }`}  alt="logo"
             />
             <h1
-              className={`text-white origin-left font-medium text-xl duration-200 ${!open && "scale-0"
-                }`}
-            >
+              className={`text-white origin-left font-medium text-xl duration-200 ${!open && "scale-0" }`}  >
               Designer
             </h1>
           </div>
@@ -124,25 +126,23 @@ function App() {
                   My unwavering commitment lies in utilizing my knowledge and skills to address a wide spectrum of challenges in the digital realm, with the ultimate goal
                   of transforming your innovative ideas into tangible reality.
                 </p>
-                <h3 className="font-burtons text-xl">  Have a project in mind? Let's make it happen. Contact me today! </h3>
+                <h3 className="font-burtons text-xl">  Have a project in mind? Let's make it happen. Contact me today!</h3>
                 <div className="text-5xl flex justify-center gap-11 py-3 text-sky-600 dark:text-gray-400">
-                  <a id="lession2" />
-                  <a href="mailto:trqjms@gmail.com" >
-                    <AiFillMail /></a>
-                  <a href="https://www.linkedin.com/in/tarek-jamous-engineer/" >
-                    <AiFillLinkedin /> </a>
-                  <a href="https://github.com/t-r-q" >
-                    <AiFillGithub /></a>
+                  
+                  <a href="mailto:trqjms@gmail.com" id="lession2"> <AiFillMail /></a>
+                  <a href="https://www.linkedin.com/in/tarek-jamous-engineer/" >  <AiFillLinkedin /> </a>
+                  <a href="https://github.com/t-r-q" >  <AiFillGithub /></a>
                 </div>
+
                 <div className="mx-auto bg-gradient-to-b to-sky-900 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-66 md:w-96">
-                  <img src={deved} layout="fill" objectFit="cover" alt="My photo" />
+                <img src={deved} layout="fill" objectfit="cover" alt="Headshot of a person with short hair." />
                 </div>
               </div>
             </section>
             <section >
               <div>
-                <a id="lession3" />
-                <h3 className="text-3xl py-1 dark:text-white ">My Skills</h3>
+                
+                <h3 className="text-4xl py-1 dark:text-white font-burtons" id="lession3">My Skills</h3>
                 <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
                   Experienced in Agile Methodology for on-time, budget-friendly software project deliveries.
                   Proficient in Scrum, Kanban, and adaptable to project and team requirements.
@@ -240,11 +240,11 @@ function App() {
               </div>
             </section>
             <section>
-              <proojects>
+              <div id="lession6">
                 <div className="bg-white py-24 sm:py-32">
                   <div className="mx-auto max-w-7xl px-6 lg:px-8">
-                    <div className="mx-auto max-w-2xl sm:text-center">
-                      <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">My Projects</h2>
+                    <div className="mx-auto sm:text-center">
+                      <h2 className=" text-4xl font-bold tracking-tight text-gray-900 sm:text-4xl font-burtons" > My Projects</h2>
                       <p className="mt-6 text-lg leading-8 text-gray-600">
                         My work on projects involves a combination of creativity and technical prowess. I take pride in translating concepts into tangible solutions,
                         using my expertise in softwaare developing to make it happen. With a detail-oriented approach,
@@ -254,6 +254,34 @@ function App() {
                         I look forward to sharing my project portfolio with you, which showcases my journey and dedication to softwaare developing. Let's explore the possibilities together.
                       </p>
                     </div>
+                   
+                    <div className="mx-auto mt-16 max-w-2xl rounded-3xl ring-1 ring-gray-200 lg:mx-0 lg:flex lg:max-w-none">
+                      <div className="p-8 sm:p-10 lg:flex-auto">
+                        <h3 className="text-2xl font-bold tracking-tight text-gray-900">Project MunamiiCakery Website</h3>
+                        <p className="mt-6 text-base leading-7 text-gray-600">
+                        The client Munamii Cakery has a cupcake and wedding cake shop where she sells cupcakes and wedding cakes. She is interested in having a website to have a more formal presence on the web, where she can customize how she presents the information to her clients.
+                        </p>
+
+                        <h4 className="flex-none text-sm font-semibold leading-6 text-indigo-600">HTML5, CSS3, JavaScript Languages</h4>
+
+                      </div>
+                      <div className="-mt-2 p-2 lg:mt-0 lg:w-full lg:max-w-md lg:flex-shrink-0">
+                        <div className="rounded-2xl bg-gray-50 py-10 text-center ring-1 ring-inset ring-gray-900/5 lg:flex lg:flex-col lg:justify-center lg:py-16">
+                          <div className="mx-auto max-w-xs px-8">
+                            <p className="text-base font-semibold text-gray-600">photo</p>
+
+                            <a
+                              href="https://github.com/t-r-q/Munamii-Cakery/tree/main"
+                              className="mt-10 block w-full rounded-md bg-gradient-to-r from-cyan-500 text- to-sky-800  px-3 py-2 text-center text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                            >
+                              Get access
+                            </a>
+
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
                     <div className="mx-auto mt-10 max-w-xl rounded-3xl ring-1 ring-gray-200  lg:mx-0 lg:flex lg:max-w-none">
                       <div className="p-8 sm:p-10 lg:flex-auto">
                         <h3 className="text-2xl font-bold tracking-tight text-gray-900">Project MoneyTracking</h3>
@@ -298,7 +326,7 @@ function App() {
                             <p className="text-base font-semibold text-gray-600">photo</p>
 
                             <a
-                              href="#"
+                              href="https://github.com/t-r-q/TodoListApp"
                               className="mt-10 block w-full rounded-md bg-gradient-to-r from-cyan-500 text- to-sky-800  py-2 text-center text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
                             >
                               Get access
@@ -326,7 +354,7 @@ function App() {
                             <p className="text-base font-semibold text-gray-600">photo</p>
 
                             <a
-                              href="#"
+                              href="https://github.com/t-r-q/androidDailer"
                               className="mt-10 block w-full rounded-md bg-gradient-to-r from-cyan-500 text- to-sky-800  px-3 py-2 text-center text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
                             >
                               Get access
@@ -336,37 +364,10 @@ function App() {
                         </div>
                       </div>
                     </div>
-                    <div className="mx-auto mt-16 max-w-2xl rounded-3xl ring-1 ring-gray-200 lg:mx-0 lg:flex lg:max-w-none">
-                      <div className="p-8 sm:p-10 lg:flex-auto">
-                        <h3 className="text-2xl font-bold tracking-tight text-gray-900">Project Library</h3>
-                        <p className="mt-6 text-base leading-7 text-gray-600">
-                          The Dialer application is a comprehensive app that replicates the functionality of a traditional phone keypad.
-                          It offers multiple activities, including: Entering the number to call, viewing previously dialed numbers,
-                          changing the keypad settings, viewing a map of where previous calls have been made.
-                        </p>
-
-                        <h4 className="flex-none text-sm font-semibold leading-6 text-indigo-600">Angular language</h4>
-
-                      </div>
-                      <div className="-mt-2 p-2 lg:mt-0 lg:w-full lg:max-w-md lg:flex-shrink-0">
-                        <div className="rounded-2xl bg-gray-50 py-10 text-center ring-1 ring-inset ring-gray-900/5 lg:flex lg:flex-col lg:justify-center lg:py-16">
-                          <div className="mx-auto max-w-xs px-8">
-                            <p className="text-base font-semibold text-gray-600">photo</p>
-
-                            <a
-                              href="#"
-                              className="mt-10 block w-full rounded-md bg-gradient-to-r from-cyan-500 text- to-sky-800  px-3 py-2 text-center text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
-                            >
-                              Get access
-                            </a>
-
-                          </div>
-                        </div>
-                      </div>
-                    </div>
+                  
                   </div>
                 </div>
-              </proojects>
+              </div>
             </section>
             <section>
               <div id="lession4">
