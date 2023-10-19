@@ -4,7 +4,7 @@ import {
   AiFillMail,
   AiFillLinkedin,
   AiFillGithub,
-  AiOutlineUser, AiOutlineHeart, AiOutlineWallet,
+  AiOutlineUser, AiOutlineWallet,
   AiFillApi, AiTwotoneMedicineBox, AiOutlineTrophy
 } from "react-icons/ai";
 import { BsFillMoonStarsFill, } from "react-icons/bs";
