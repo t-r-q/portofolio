@@ -42,14 +42,14 @@ function App() {
   const [darkMode, setDarkMode] = useState(false);
   const [open, setOpen] = useState(true);
 
-  const className = ` w-${open ? "72" : "20 "} bg-gradient-to-r from-cyan-500 to-sky-800 text-white px-4 py-2 border-none rounded-md ms-2 relative`;
+  const clasName = `${open ? "w-70" : "w-20 "} bg-gradient-to-r from-cyan-500 to-sky-800 text-white px-4 py-2 border-none rounded-md ms-2 relative`;
 
 
   return (
 
     <div className={darkMode ? "dark" : ""}>
-      <section className="flex">
-      <div className={className} >
+      <div className="flex">
+      <div className={clasName} >
 
           <img src={control} className={`absolute cursor-pointer -right-3 top-9 w-7 border-dark-purple border-2 rounded-full  ${!open && "rotate-180"}  `}
             onClick={() => setOpen(!open)} alt="hi in my portfolio"
@@ -64,7 +64,7 @@ function App() {
             />
             <h1
               className={`text-white origin-left font-medium text-xl duration-200 ${!open && "scale-0" }`}  >
-              Designer
+              Devloper
             </h1>
           </div>
           <ul className="pt-6">
@@ -454,7 +454,7 @@ function App() {
           </main>
         </div>
 
-      </section>
+      </div>
 
 
     </div>
