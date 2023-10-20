@@ -126,7 +126,7 @@ function App() {
                   My unwavering commitment lies in utilizing my knowledge and skills to address a wide spectrum of challenges in the digital realm, with the ultimate goal
                   of transforming your innovative ideas into tangible reality.
                 </p>
-                <h3 className="font-burtons text-xl">  Have a project in mind? Let's make it happen. Contact me today!</h3>
+                <h3 className="font-burtons text-xl text-sky-600">  Have a project in mind? Let's make it happen. Contact me today!</h3>
                 <div className="text-5xl flex justify-center gap-11 py-3 text-sky-600 dark:text-gray-400">
                   
                   <a href="mailto:trqjms@gmail.com" id="lession2"> <AiFillMail /></a>
